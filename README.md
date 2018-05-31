@@ -23,3 +23,6 @@ Sys.setenv(RBoilerplateShinyWithCredentials_pwd="some password")
 library(RBoilerplateShinyWithCredentials) # Automatically done by previous step
 launch()
 ```
+
+## References
+https://cran.r-project.org/web/packages/httr/vignettes/secrets.html
