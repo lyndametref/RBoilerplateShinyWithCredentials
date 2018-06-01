@@ -5,8 +5,9 @@
 #' @export
 #' @importFrom shiny runApp
 
-launch <- function(app_port=8888)
+launch <- function(app_port=8888, host = getOption("shiny.host", "127.0.0.1"))
 {
   runApp(port = app_port,
-         appDir = system.file(package = "RBoilerplateShinyWithCredentials"))
+         appDir = system.file(package = "RBoilerplateShinyWithCredentials"),
+         host = host)
 }
