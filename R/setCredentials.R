@@ -60,12 +60,10 @@ credentialsInput <- function(id) {
 #' @return -
 #' @export
 setCredentials <- function(input, output, session){
-  eventReactive(input$credentialSubmitButton,{
+  observeEvent(input$credentialSubmitButton,{
     set_username(input$username)
     set_password(input$password)
-  })
-
-  observeEvent(input$credentialSubmitButton,{
+    ##make sure configration is ok, remove line in operation
     print(paste(get_username(),get_password()))
   })
 }
