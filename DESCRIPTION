@@ -1,10 +1,10 @@
-Package: RBoilerplateShinyWithCredentials
-Title: Test for using password without distributing it with package
+Package: RBoilerplate
+Title: R-Boilerplat: Shiny app with an API running in parallel
 Version: 0.1
-Authors@R: person("Lynda", "Metref", email = "lynda.metref@gamil.com", role = c("aut", "cre"))
-Description: Test for using password without distributing it with package.
+Authors@R: person("Lynda", "Metref", email = "lynda.metref@gmail.com", role = c("aut", "cre"))
+Description: Boilerplat for a Shiny app with an API running in parallel.
 Depends: R (>= 3.2.3)
-Imports: shiny
+Imports: shiny, plumber
 License: GPL
 Encoding: UTF-8
 LazyData: true
