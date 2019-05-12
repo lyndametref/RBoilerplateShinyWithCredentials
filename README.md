@@ -17,7 +17,5 @@ start a container (dock.sh). The Docker image is based on the rocker/r-base and
 install shiny as well as the developed package. Once run, the shiny app is launch
 and listen on port 8888 mapped also to 8888 outside the container.
 
-The image building is based on the r-base Rocker image and shiny is installed manually.
-
 ## References
 https://hub.docker.com/u/rocker/
