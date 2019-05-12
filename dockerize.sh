@@ -3,4 +3,4 @@ cd build
 rm *
 R CMD build ..
 cd ..
-docker build -t rboilerplate-shiny-api .
+docker build -t rboilerplate-api .
