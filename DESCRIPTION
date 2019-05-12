@@ -1,4 +1,4 @@
-Package: RBoilerplateShinyWithCredentials
+Package: RBoilerplateShinyDocker
 Title: Test for using password without distributing it with package
 Version: 0.1
 Authors@R: person("Lynda", "Metref", email = "lynda.metref@gamil.com", role = c("aut", "cre"))
@@ -8,4 +8,4 @@ Imports: shiny
 License: GPL
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 6.0.1
+RoxygenNote: 6.1.1
